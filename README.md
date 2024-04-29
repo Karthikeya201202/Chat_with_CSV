@@ -17,10 +17,30 @@ Install the required packages: pip install -r requirements.txt<br />
 Obtain an API key from the OpenAI website.<br />
 Add your API key to a .env file:<br />
 OPENAI_API_KEY=your_api_key_here
+<img width="617" alt="Installation" src="https://github.com/Karthikeya201202/Chat_with_CSV/assets/92677934/8e5f0559-44b3-4720-8854-414d1f9977f2">
+<br />
 ### Usage
  1.streamlit run app.py<br />
  2.Upload your CSV file using the app interface.<br />
  3.Ask questions related to the data (e.g., “What was the total revenue in Q2 2023?” or “Which product received the highest ratings?”).<br />
  4.The LLM-powered agent will provide answers based on the data.<br />
+ ### App Interface
+ <img width="948" alt="Streamlit app" src="https://github.com/Karthikeya201202/Chat_with_CSV/assets/92677934/a6868f5f-7228-4232-878e-e72cfe261604">
+ ### Prompt
+ ![prompt](https://github.com/Karthikeya201202/Chat_with_CSV/assets/92677934/e994be95-5d10-4d64-859a-22dcb3513932)
+ ### Table
+ ![create a table](https://github.com/Karthikeya201202/Chat_with_CSV/assets/92677934/6ba277b7-69bf-4862-a2e6-18bb9aa927d0)
+ ### Bar graph
+ ![bar graph](https://github.com/Karthikeya201202/Chat_with_CSV/assets/92677934/a404e213-24a1-4f4d-a74c-a38a874cead4)
+
+### End NOtes:
+1. Following dataset has been used for obtaining the above prompts:<br/>
+https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata <br/>
+2. Kindly note that the app may not work as the OpenAI token limit gets exceeded
+
+
+
+
+
  
 
